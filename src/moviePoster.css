@@ -1,0 +1,22 @@
+.movie-poster {
+    margin-top: 3rem;
+    margin-right: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #fff; /* Fundo branco */
+  }
+ 
+  /* Estilos para o título do cartaz */
+  .movie-poster h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+ 
+  /* Estilos para a imagem do cartaz */
+  .movie-poster img {
+    width: 300px;
+    height: fit-content; /* Imagem ocupará 100% da largura do contêiner */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+  }
